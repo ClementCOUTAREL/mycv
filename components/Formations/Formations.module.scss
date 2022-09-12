@@ -1,0 +1,12 @@
+@import '../../styles/colors';
+
+.container {
+    padding: 3rem;
+    background-color: $background-alternative-color;
+    border-bottom: 1px solid black;
+
+    h2 {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,64 @@
+@import '../../styles/colors';
+
+.container {
+    display: grid;
+    grid-template-columns: 0.15fr 0.4fr 0.45fr;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    h3,
+    h4,
+    p {
+        margin-bottom: 0.5rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+    }
+
+    p,
+    ul li {
+        font-size: 1.2rem;
+    }
+
+    .tasks {
+        display: flex;
+        align-items: center;
+
+        ul li {
+            list-style: circle;
+            margin-bottom: 0.4rem;
+        }
+
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description {
+        padding-left: 2rem;
+    }
+
+}
+
+@media(width < 500px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.15fr 0.4fr 0.45fr;
+    }
+
+    .tasks ul {
+        padding: 2rem;
+    }
+}

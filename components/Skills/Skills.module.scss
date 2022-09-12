@@ -1,0 +1,10 @@
+@import '../../styles/colors';
+
+.container {
+    padding: 3rem;
+    background-color: $background-alternative-color;
+
+    h2 {
+        font-size: 2rem;
+    }
+}
