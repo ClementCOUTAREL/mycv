@@ -14,20 +14,20 @@ const Skills = ({ lang }) => {
         {
             id: 1,
             field: "Ingénierie routière",
-            items: ["Diagnostic de chaussées", "Dimensionnement de structures de chaussées", "Suivi de refection de chaussées"],
+            items: ["Diagnostic de chaussées", "Dimensionnement de structures de chaussées", "Diagnostic de présence d'amiante/HAP dans les enrobés", "Suivi de refection de chaussées"],
             supp: ["Alize LCPC"],
             suppLabel: "Logiciels"
         },
         {
             id: 3,
             field: "Developpement web",
-            items: ["HTLM5/CSS3", "Javascript : NodeJS, ExpressJS, React, Nextjs", "Python : Django"],
+            items: ["HTLM5/CSS3", "Javascript : NodeJS, ExpressJS, React", "Python : Django"],
 
         },
         {
             id: 2,
             field: "Logiciels",
-            items: ["Microsoft Word", "Microsoft Powerpoint", "Miocrosoft Excel"],
+            items: ["Microsoft Word", "Microsoft Powerpoint", "Microsoft Excel"],
 
         },
         {
@@ -41,20 +41,20 @@ const Skills = ({ lang }) => {
         {
             id: 1,
             field: "Road Enginnering",
-            items: ["Pavement diagnosis ", "Dimensioning of reinforcement and new structures", "Road repair follow-up"],
+            items: ["Pavement diagnosis ", "Dimensioning of reinforcement and new structures", "Diagnosis of the presence of asbesto/HAP in asphalt", "Road repair follow-up"],
             supp: ["Alize LCPC"],
             suppLabel: "Softwares"
         },
         {
             id: 3,
             field: "Web Development",
-            items: ["HTLM5/CSS3", "Javascript : NodeJS, ExpressJS, React, Nextjs", "Python : Django"],
+            items: ["HTLM5/CSS3", "Javascript : NodeJS, ExpressJS, React", "Python : Django"],
 
         },
         {
             id: 2,
             field: "Softwares",
-            items: ["Microsoft Word", "Microsoft Powerpoint", "Miocrosoft Excel"],
+            items: ["Microsoft Word", "Microsoft Powerpoint", "Microsoft Excel"],
 
         },
         {
@@ -68,26 +68,26 @@ const Skills = ({ lang }) => {
         {
             id: 1,
             field: "Ingenieria de pavimientos",
-            items: ["Diagnosticos de pavimientos", "Dimensionamiento de estructuras de pavimientos", "Seguimiento de reparacion de carreteras"],
+            items: ["Diagnosticos de pavimientos", "Dimensionamiento de estructuras de pavimentos", "Diagnostico de la presencia de asbesto/HAP en asfalto", "Seguimiento de reparacion de carreteras"],
             supp: ["Alize LCPC"],
             suppLabel: "Softwares"
         },
         {
             id: 3,
             field: "Desarollo web",
-            items: ["HTLM5/CSS3", "Javascript : NodeJS, ExpressJS, React, Nextjs", "Python : Django"],
+            items: ["HTLM5/CSS3", "Javascript : NodeJS, ExpressJS, React", "Python : Django"],
 
         },
         {
             id: 2,
             field: "Softwares",
-            items: ["Microsoft Word", "Microsoft Powerpoint", "Miocrosoft Excel"],
+            items: ["Microsoft Word", "Microsoft Powerpoint", "Microsoft Excel"],
 
         },
         {
             id: 4,
             field: "Idiomas",
-            items: ["Frances - Materna", "Ingles - Intermedio", "Espanol - intermedio"],
+            items: ["Frances - Materna", "Ingles - Intermedio", "Espanol - Intermedio"],
 
         }]
 

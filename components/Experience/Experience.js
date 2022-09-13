@@ -23,6 +23,10 @@ const Formations = ({ lang }) => {
         },
         {
             id: 3,
+            task: "Diagnostic de présence d'amiante/HAP dans les enrobés"
+        },
+        {
+            id: 4,
             task: "Missions de contrôle extérieur et suivi de travaux de réfection de chaussées"
         }]
     },
@@ -39,6 +43,10 @@ const Formations = ({ lang }) => {
         }, {
             id: 2,
             task: "Dimensionnement de structures de renforcement et chaussées neuves"
+        },
+        {
+            id: 3,
+            task: "Missions de contrôle extérieur et suivi de travaux de réfection de chaussées"
         }]
     },
     {
@@ -73,6 +81,10 @@ const Formations = ({ lang }) => {
         },
         {
             id: 3,
+            task: "Diagnosis of the presence of asbestos/HAP in asphalt"
+        },
+        {
+            id: 4,
             task: "External control missions and follow-up of road repair works"
         }]
     },
@@ -89,6 +101,10 @@ const Formations = ({ lang }) => {
         }, {
             id: 2,
             task: "Dimensioning of reinforcement structures and new pavements"
+        },
+        {
+            id: 3,
+            task: "External control missions and follow-up of road repair works"
         }]
     },
     {
@@ -124,12 +140,16 @@ const Formations = ({ lang }) => {
         },
         {
             id: 3,
+            task: "Diagnóstico de la presencia de asbesto/HAP en asfalto"
+        },
+        {
+            id: 4,
             task: "Misiones de control externo y seguimiento de obras de reparación de carreteras"
         }]
     },
     {
         id: 2,
-        job: "Ingeniero de pavimientos",
+        job: "Ingeniero de pavimentos",
         company: "Qualys TPI",
         year: "Febrero 2016 - Diciembre 2016",
         location: "Dijon",
